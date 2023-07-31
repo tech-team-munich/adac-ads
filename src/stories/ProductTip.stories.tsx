@@ -16,14 +16,26 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    headline: "Mit der richtigen Beratung wird alles ganz einfach!",
+    headline: "Ganz einfach zur richtigen Wallbox - zum ADAC Vorteilspreis!",
     children: (
       <>
         Sie interessieren sich für eine Wallbox für Ihren Firmenwagen? Dann
-        prüfen Sie auch das <a>Wallbox-Angebot des ADAC</a> mit
-        Mitgliedervorteilen. Hier können Sie auch direkt Ihren{" "}
-        <a>Installationsbedarf ermitteln</a> oder einen <a>Vor-Ort Check</a> zur
-        individuellen Beratung vereinbaren.
+        prüfen Sie auch das{" "}
+        <a
+          href="https://www.adac.de/rund-ums-fahrzeug/e-angebote/wallbox/"
+          target="_self"
+        >
+          Wallbox-Angebot des ADAC
+        </a>{" "}
+        mit ADAC Mitgliedervorteilen. Hier können Sie auch direkt Ihren{" "}
+        <a href="https://adac.wallbox-kaufen.shop/#shop" target="_self">
+          Installationsbedarf
+        </a>{" "}
+        ermitteln oder einen{" "}
+        <a href="https://adac.wallbox-kaufen.shop/#shop" target="_self">
+          Vor-Ort Check
+        </a>{" "}
+        zur individuellen Beratung vereinbaren.
       </>
     ),
   },
