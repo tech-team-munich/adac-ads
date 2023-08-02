@@ -14,12 +14,12 @@ export const ProductTip = ({
     <div className="tw-my-8 lg:tw-grid lg:tw-grid-cols-12">
       <blockquote
         {...props}
-        className="tw-rounded-lg tw-border tw-border-[#E5E5E5] tw-p-4 md:tw-p-6 lg:tw-col-span-8 lg:tw-col-start-3"
+        className="tw-m-0 tw-rounded-lg tw-border tw-border-solid tw-border-[#E5E5E5] tw-p-4 md:tw-p-6 lg:tw-col-span-8 lg:tw-col-start-3"
       >
         <figure className="tw-relative tw-flex tw-items-center tw-justify-center tw-gap-x-4 md:tw-gap-x-6">
           <img
             src="/avatar.png"
-            className="tw-h-14 tw-w-14 tw-flex-shrink-0 tw-rounded-full tw-bg-gray-100 md:tw-h-[110px] md:tw-w-[110px]"
+            className="tw-block tw-h-14 tw-w-14 tw-flex-shrink-0 tw-rounded-full tw-bg-gray-100 tw-align-middle md:tw-h-[110px] md:tw-w-[110px]"
           />
           <figcaption className="tw-w-full">
             <p className="tw-font-body tw-text-sm tw-text-black">

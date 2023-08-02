@@ -4,7 +4,7 @@
 
 @layer components {
   a {
-    @apply tw-underline tw-underline-offset-2;
+    @apply tw-text-black tw-underline-offset-2;
     text-decoration-thickness: 2px;
     text-decoration-color: rgba(0, 0, 0, 0.4);
   }
