@@ -4,9 +4,14 @@ const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
+    {
+      name: "@storybook/addon-essentials",
+      options: {
+        actions: false,
+      },
+    },
     "@storybook/addon-onboarding",
-    "@storybook/addon-interactions",
+    "@whitespace/storybook-addon-html",
     {
       name: "@storybook/addon-styling",
       options: {
