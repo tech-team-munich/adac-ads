@@ -38,7 +38,7 @@ export const ProductTip = ({
             {headline}
           </p>
           <p className="tw-m-0 tw-mt-4 tw-font-body tw-text-quote tw-italic  tw-text-black tablet:tw-mt-6">
-            "{children}"
+            &#8220;{children}&#8221;
           </p>
         </blockquote>
       </div>
