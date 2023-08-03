@@ -25,6 +25,10 @@ export default {
           },
         ],
       },
+      screens: {
+        tablet: "600px",
+        desktop: "840px",
+      },
     },
   },
   plugins: [],
